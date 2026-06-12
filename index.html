@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book your flight quickly and securely. Fast processing, best prices, 24/7 support.">
+  <title>Flight Booking</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     HEADER
+══════════════════════════════════════════════ -->
+<header id="header" role="banner">
+  <div class="container header-inner">
+
+    <!-- Logo + name -->
+    <a href="#" class="logo-wrap" aria-label="Home">
+      <div class="logo-icon" data-brand-logo></div>
+      <span class="company-name" data-brand-name>SkyReserve</span>
+    </a>
+
+    <!-- Mobile toggle -->
+    <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Navigation -->
+    <nav id="nav-menu" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#booking">Booking</a>
+      <a href="#faq">FAQ</a>
+      <a href="#booking" class="btn-book">Book Now</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+<section id="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="hero-content reveal">
+
+      <span class="section-label">✈ Trusted Booking Service</span>
+
+      <h1 id="hero-heading">Book Your Flight<br>Easily &amp; Securely</h1>
+      <p>Fast, secure, and professional reservation service. Reserve your seat in minutes with full confirmation.</p>
+
+      <a href="#booking" class="hero-cta">
+        Reserve Now
+        <!-- Arrow icon -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+
+      <!-- Stats -->
+      <div class="hero-stats" aria-label="Key statistics">
+        <div class="hero-stat">
+          <strong>50K+</strong>
+          <span>Bookings Made</span>
+        </div>
+        <div class="hero-stat">
+          <strong>58</strong>
+          <span>Wilayas Covered</span>
+        </div>
+        <div class="hero-stat">
+          <strong>24/7</strong>
+          <span>Support Available</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FEATURES
+══════════════════════════════════════════════ -->
+<section id="features" aria-labelledby="features-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Why Choose Us</span>
+      <h2 id="features-heading">Everything You Need<br>in One Place</h2>
+      <p>We make flight reservations simple, safe, and stress-free for every traveller across Algeria.</p>
+    </div>
+
+    <div class="features-grid">
+
+      <!-- Secure Booking -->
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <!-- Shield icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3>Secure Booking</h3>
+        <p>Your data is encrypted and protected. Every reservation is processed through a secured, verified channel.</p>
+      </article>
+
+      <!-- Fast Processing -->
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <!-- Bolt icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+          </svg>
+        </div>
+        <h3>Fast Processing</h3>
+        <p>Reservations are confirmed within minutes. No lengthy forms, no back-and-forth — just quick and efficient.</p>
+      </article>
+
+      <!-- Customer Support -->
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <!-- Headset icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+          </svg>
+        </div>
+        <h3>Customer Support</h3>
+        <p>A dedicated support team available around the clock to assist you with any questions or changes.</p>
+      </article>
+
+      <!-- Best Prices -->
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <!-- Tag icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+            <line x1="7" y1="7" x2="7.01" y2="7"/>
+          </svg>
+        </div>
+        <h3>Best Prices</h3>
+        <p>We negotiate the most competitive fares so you always travel at the best possible rate.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     BOOKING FORM
+══════════════════════════════════════════════ -->
+<section id="booking" aria-labelledby="booking-heading">
+  <div class="container">
+    <div class="booking-grid">
+
+      <!-- Left: info -->
+      <div class="booking-info reveal">
+        <span class="section-label">Reserve Your Seat</span>
+        <h2 id="booking-heading">Simple &amp; Fast<br>Flight Reservation</h2>
+        <p>Fill in the short form and our team will get back to you promptly with full booking details and pricing.</p>
+
+        <div class="booking-steps" aria-label="Booking steps">
+          <div class="booking-step">
+            <div class="step-num" aria-hidden="true">1</div>
+            <div class="step-body">
+              <strong>Fill in your details</strong>
+              <span>Enter your personal information accurately.</span>
+            </div>
+          </div>
+          <div class="booking-step">
+            <div class="step-num" aria-hidden="true">2</div>
+            <div class="step-body">
+              <strong>Submit your request</strong>
+              <span>Your form is validated and sent securely.</span>
+            </div>
+          </div>
+          <div class="booking-step">
+            <div class="step-num" aria-hidden="true">3</div>
+            <div class="step-body">
+              <strong>Receive confirmation</strong>
+              <span>We contact you with your booking confirmation.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: form card -->
+      <div class="booking-card reveal">
+        <h2>Flight Reservation Request</h2>
+        <p>All fields marked <span aria-hidden="true" style="color:var(--blue-600)">*</span> are required.</p>
+
+        <form id="booking-form" novalidate aria-label="Flight reservation form">
+          <div class="form-grid">
+
+            <!-- First Name -->
+            <div class="field-wrapper">
+              <label for="first_name">First Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="first_name" name="first_name"
+                     data-label="First name"
+                     autocomplete="given-name" required
+                     placeholder="Youssef">
+              <span class="field-hint" aria-live="polite"></span>
+            </div>
+
+            <!-- Family Name -->
+            <div class="field-wrapper">
+              <label for="family_name">Family Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="family_name" name="family_name"
+                     data-label="Family name"
+                     autocomplete="family-name" required
+                     placeholder="Benali">
+              <span class="field-hint" aria-live="polite"></span>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="field-wrapper field-full">
+              <label for="date_of_birth">Date of Birth <span class="req" aria-hidden="true">*</span></label>
+              <input type="date" id="date_of_birth" name="date_of_birth"
+                     data-label="Date of birth"
+                     autocomplete="bday" required>
+              <span class="field-hint" aria-live="polite"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="field-wrapper field-full">
+              <label for="email">Email Address <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email"
+                     data-label="Email"
+                     autocomplete="email" required
+                     placeholder="youssef@example.com">
+              <span class="field-hint" aria-live="polite"></span>
+            </div>
+
+            <!-- Phone -->
+            <div class="field-wrapper field-full">
+              <label for="phone">Phone Number <span class="req" aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone"
+                     data-label="Phone number"
+                     autocomplete="tel" required
+                     placeholder="+213 6XX XXX XXX">
+              <span class="field-hint" aria-live="polite"></span>
+            </div>
+
+            <!-- Wilaya autocomplete -->
+            <div class="field-wrapper field-full">
+              <label for="wilaya">Wilaya <span class="req" aria-hidden="true">*</span></label>
+              <div class="wilaya-wrap">
+                <input type="text" id="wilaya" name="wilaya"
+                       data-label="Wilaya"
+                       autocomplete="off" required
+                       placeholder="Search your wilaya…"
+                       aria-autocomplete="list"
+                       aria-controls="wilaya-dropdown"
+                       aria-haspopup="listbox"
+                       role="combobox"
+                       aria-expanded="false">
+                <ul id="wilaya-dropdown" role="listbox" aria-label="Wilaya suggestions"></ul>
+              </div>
+              <span class="field-hint" aria-live="polite"></span>
+            </div>
+
+          </div><!-- /form-grid -->
+
+          <!-- Success / Error messages -->
+          <div id="form-success" hidden role="status" aria-live="polite">
+            ✅ Your reservation request has been submitted successfully! We will contact you shortly.
+          </div>
+          <div id="form-error" hidden role="alert" aria-live="assertive"></div>
+
+          <!-- Submit -->
+          <button type="submit" class="submit-btn" aria-label="Submit reservation request">
+            <span class="btn-text">Submit Reservation Request</span>
+            <span class="btn-spinner" aria-hidden="true">
+              <span class="spinner-ring"></span>
+              Processing…
+            </span>
+          </button>
+
+        </form>
+      </div><!-- /booking-card -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════ -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">FAQ</span>
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>Everything you need to know before making your reservation.</p>
+    </div>
+
+    <div class="faq-list reveal" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          How long does it take to receive confirmation?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq-answer"><p>Reservations are processed within 24 hours. You will receive a confirmation by email or phone call once your booking is verified.</p></div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Is my personal information safe?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq-answer"><p>Yes. All data is securely stored and encrypted. We never share your personal information with third parties without your consent.</p></div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Can I modify or cancel a booking?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq-answer"><p>Absolutely. Contact our support team via phone or email with your booking reference and we will assist you with any modifications or cancellations.</p></div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Which payment methods are accepted?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq-answer"><p>We accept cash at our offices, bank transfers, and CIB/Edahabia card payments. Our team will guide you through the payment step after confirming availability.</p></div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Do you serve all 58 wilayas?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq-answer"><p>Yes. Our service covers all 58 Algerian wilayas. Simply select your wilaya from the booking form and we will match you with the nearest available option.</p></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="logo-wrap" style="margin-bottom:.5rem">
+          <div class="logo-icon" data-brand-logo style="width:34px;height:34px;border-radius:8px;"></div>
+          <span class="company-name" data-brand-name>SkyReserve</span>
+        </div>
+        <p data-brand-tagline>Your Sky, Your Schedule</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#booking">Book Now</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:contact@skyreserve.dz">contact@skyreserve.dz</a>
+        <a href="tel:+21300000000">+213 00 000 0000</a>
+        <a href="#">Alger, Algeria</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> <span data-brand-name>SkyReserve</span>. All rights reserved.</span>
+      <span>Built with ❤️ for Algerian travellers</span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Scripts: config first (defines BRAND + SUPABASE_*), then app -->
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
