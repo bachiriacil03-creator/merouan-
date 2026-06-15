@@ -10,5 +10,5 @@ const BRAND = {
   logoImage:   "../assets/logo.png", // set to "" to use text logo
 };
 
-const SUPABASE_URL      = "https://YOUR_PROJECT.supabase.co";
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL      = "https://ogebleieybsygomeqeeb.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_kum2nFVCuA93jT_Ov8GOHQ__EfpNyYa";
