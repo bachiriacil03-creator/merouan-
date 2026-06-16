@@ -94,7 +94,7 @@ p  { line-height:1.7; color:var(--gray-600); }
 #nav-menu a:hover { color:var(--blue-600); }
 #nav-menu a:hover::after { width:100%; }
 
-.btn-book { padding:.55rem 1.4rem; background:var(--blue-600); color:var(--white)!important; border-radius:999px; font-size:.9rem!important; font-weight:600!important; transition:background var(--transition),transform var(--transition),box-shadow var(--transition)!important; }
+.btn-book {display: flex;align-items: center;justify-content: center; padding:.55rem 1.4rem; background:var(--blue-600); color:var(--white)!important; border-radius:999px; font-size:.9rem!important; font-weight:600!important; transition:background var(--transition),transform var(--transition),box-shadow var(--transition)!important; }
 .btn-book::after { display:none!important; }
 .btn-book:hover { background:var(--blue-700); transform:translateY(-1px); box-shadow:0 4px 16px rgba(37,99,235,.35)!important; color:var(--white)!important; }
 

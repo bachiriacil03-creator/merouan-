@@ -4,9 +4,9 @@
 // =============================================================
 
 const BRAND = {
-  companyName: "SkyReserve",
+  companyName: "MB Voyage",
   tagline:     "Your Sky, Your Schedule",
-  logoText:    "SR",               // shown when no logo image is provided
+  logoText:    "MB",               // shown when no logo image is provided
   logoImage:   "../assets/logo.png", // set to "" to use text logo
 };
 
